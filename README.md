@@ -1,5 +1,4 @@
 # Inteligencia Artificial
-![Logo ITC]([https://www.example.com/imagen.png](https://www.culiacan.tecnm.mx/wp-content/themes/tecnm/images/logo-itc.svg))
 
 ## Descripción
 
