@@ -13,6 +13,6 @@ Este repositorio contiene los proyectos, prácticas y experimentos desarrollados
 
 ## Autores
 
-- **Alexis Guillén Ruiz**
-- **Juan Antonio Velázquez Alarcón**
+- **Alexis Guillén Ruiz** - [**AlexisFKLMX**]
+- **Juan Antonio Velázquez Alarcón** - [**JuanvlzqzTec**]
 
