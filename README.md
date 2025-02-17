@@ -1,6 +1,7 @@
-# Inteligencia Artificial
-![Logo ITC](rsc/img/logo-itc.svg)
 ![Logo TECNM](rsc/img/logo-tecnm.svg)
+![Logo ITC](rsc/img/logo-itc.svg)
+# Inteligencia Artificial
+
 ## Descripción
 
 Este repositorio contiene los proyectos, prácticas y experimentos desarrollados durante la materia de **Inteligencia Artificial**.
