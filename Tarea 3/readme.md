@@ -1,6 +1,10 @@
-# Agentes Deliberativos
+# Autores
+- **Alexis Guillén Ruiz**
+- **Juan Antonio Velázquez Alarcón**
 
-Los agentes deliberativos son sistemas de inteligencia artificial diseñados para tomar decisiones basadas en un modelo interno del mundo. A diferencia de los agentes reactivos, que responden directamente a estímulos del entorno, los agentes deliberativos evalúan diferentes cursos de acción antes de actuar. Para ello, emplean técnicas de razonamiento simbólico y planificación, lo que les permite alcanzar sus objetivos de manera más eficiente.  
+# Resumen sobre Agentes Deliberativos
+
+Este apartado trata sobre un resumen acerca de los agentes deliberativos, que son sistemas de inteligencia artificial diseñados para tomar decisiones basadas en un modelo interno del mundo. A diferencia de los agentes reactivos, que responden directamente a estímulos del entorno, los agentes deliberativos evalúan diferentes cursos de acción antes de actuar. Para ello, emplean técnicas de razonamiento simbólico y planificación, lo que les permite alcanzar sus objetivos de manera más eficiente.  
 Estos agentes son fundamentales en diversas áreas como la robótica, la automatización y la inteligencia artificial en general. En estos campos, la toma de decisiones informada y estratégica es crucial para el desempeño óptimo del sistema.
 
 ## Funcionamiento de los Agentes Deliberativos
