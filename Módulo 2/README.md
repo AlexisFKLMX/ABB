@@ -1,4 +1,4 @@
-# Módulo 2: Investigación y Aplicación de Paradigmas de la Inteligencia Artificial
+# Módulo 2
 
 ## Descripción
 
