@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Este repositorio contiene la documentación y los proyectos realizados en el **Módulo 2**, en el que se exploraron diferentes **paradigmas de la Inteligencia Artificial (IA)**. Cada proyecto ha sido una oportunidad para investigar y analizar ejemplos representativos de cada paradigma mediante aplicaciones prácticas. Además, se abordaron temas relacionados con **aprendizaje automático**, **modelo cognitivo** y **clasificación de correos electrónicos** (SPAM). Cada sección incluye tanto los análisis como la implementación práctica de soluciones basadas en los paradigmas estudiados.
+Este repositorio contiene la documentación y los proyectos realizados en el **Módulo 2**, en el que se exploraron diferentes **paradigmas de la Inteligencia Artificial (IA)**. Cada proyecto ha sido una oportunidad para investigar y analizar ejemplos representativos de cada paradigma mediante aplicaciones prácticas. Además, se abordaron temas relacionados con **aprendizaje automático**, **modelo cognitivo**, **clasificación de correos electrónicos** (SPAM) y **Sistemas Expertos**. Cada sección incluye tanto los análisis como la implementación práctica de soluciones basadas en los paradigmas estudiados.
 
 ## Autores
 
@@ -45,3 +45,9 @@ Este proyecto tiene como objetivo el desarrollo de un **clasificador de correos 
 
 #### Descripción:
 Se preprocesa el texto de los correos electrónicos (eliminando stopwords, caracteres especiales, y realizando tokenización) antes de entrenar un modelo de clasificación. La interfaz gráfica permite a los usuarios redactar o cargar correos y clasificar su contenido como SPAM o no SPAM.
+
+### 5. Sistema Experto para Diagnóstico Respiratorio
+
+Este proyecto desarrolla un **sistema experto** orientado al diagnóstico rápido de ocho patologías respiratorias agudas frecuentes en adultos (resfriado común, influenza, faringitis bacteriana, sinusitis aguda, bronquitis aguda, exacerbación asmática, exacerbación de EPOC y neumonía). Basado en reglas clínicas extraídas de guías y literatura revisada, el motor de inferencia analiza los síntomas y signos introducidos por el usuario, determina la causa más probable y recomienda la acción inicial adecuada (autocuidado, consulta médica o urgencias).
+
+Al emitir el resultado, el sistema explica en lenguaje natural la lógica detrás de su decisión, demostrando cómo la inteligencia artificial simbólica puede apoyar la toma de decisiones en el ámbito sanitario de forma transparente y didáctica.
