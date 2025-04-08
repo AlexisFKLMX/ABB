@@ -63,7 +63,33 @@ Diagnosticar de manera rápida la causa **más probable** entre ocho cuadros res
 | R7 | Faringitis bacteriana | fiebre_alta = si **y** dolor_garganta = si **y** tos = no **y** congestion = no | Médico |
 | R8 | Resfriado común | congestion = si **y** dolor_garganta = si **y** fiebre_alta = no **y** disnea = no | Autocuidado |
 
-*(La prioridad interna evita que Neumonía sea desplazada por diagnósticos menos graves.)*
+### Formulación lógica de las reglas
+A continuación se expresa cada regla diagnóstica en lógica proposicional (forma condicional).  
+Las letras mayúsculas representan hechos **verdaderos**; el diagnóstico se infiere si la conjunción del antecedente es cierta.  
+
+| Símbolo | Hecho clínico                 | Símbolo | Hecho clínico                    |
+|---------|------------------------------|---------|----------------------------------|
+| **F**   | fiebre alta = sí             | **Tₛ**  | tos = seca                       |
+| **Tₚ**  | tos = productiva             | **D**   | disnea = sí                      |
+| **FC**  | frecuencia cardíaca alta = sí| **M**   | dolor muscular = sí              |
+| **Si**  | sibilancias = sí             | **A**   | antecedente de asma = sí         |
+| **E**   | antecedente de EPOC = sí     | **P**   | esputo purulento = sí            |
+| **TF**  | tos > 5 días = sí            | **L**   | dolor facial = sí                |
+| **C**   | congestión nasal = sí        | **G**   | dolor de garganta = sí           |
+| **S10** | síntomas > 10 días = sí      |
+
+
+| # | Diagnóstico | Fórmula lógica |
+|---|-------------|----------------|
+| 1 | **Neumonía** | F ∧ (Tₛ ∨ Tₚ) ∧ (D ∨ FC) → Neumonía |
+| 2 | **Influenza** | F ∧ M ∧ Tₛ → Influenza |
+| 3 | **Exacerbación asmática** | A ∧ Si ∧ D → Exacerbación asmática |
+| 4 | **Exacerbación de EPOC** | E ∧ D ∧ P → Exacerbación EPOC |
+| 5 | **Bronquitis aguda** | Tₚ ∧ TF ∧ ¬F ∧ ¬D → Bronquitis |
+| 6 | **Sinusitis aguda** | L ∧ C ∧ S10 → Sinusitis |
+| 7 | **Faringitis bacteriana** | F ∧ G ∧ ¬Tₛ ∧ ¬Tₚ ∧ ¬C → Faringitis |
+| 8 | **Resfriado común** | C ∧ G ∧ ¬F ∧ ¬D → Resfriado |
+
 
 ---
 
