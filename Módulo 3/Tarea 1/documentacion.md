@@ -1,5 +1,5 @@
 # Sistema Experto de Diagnóstico Respiratorio
-
+**El programa que hay es solo una demo, no la versión final**
 ## 1. Objetivo
 Diagnosticar de manera rápida la causa **más probable** entre ocho cuadros respiratorios agudos en adultos ambulatorios, a partir de una serie de síntomas y signos seleccionados. El sistema sugiere la **acción inicial** (autocuidado, visita médica o urgencias) y explica la razón de la decisión.
 
