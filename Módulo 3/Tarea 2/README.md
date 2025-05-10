@@ -1,6 +1,6 @@
 # Sistema Experto para Diagnóstico de Enfermedades Respiratorias
 
-Este repositorio contiene el desarrollo de un sistema experto basado en reglas, diseñado para apoyar el diagnóstico preliminar de enfermedades respiratorias agudas comunes en adultos.
+Esta rama contiene el desarrollo de un sistema experto basado en reglas, diseñado para apoyar el diagnóstico preliminar de enfermedades respiratorias agudas comunes en adultos.
 
 El sistema parte de una base de conocimiento médica confiable y permite determinar un posible diagnóstico a partir de síntomas y antecedentes del paciente. Además, sugiere la acción más adecuada (autocuidado, consulta médica o atención de urgencia).
 
