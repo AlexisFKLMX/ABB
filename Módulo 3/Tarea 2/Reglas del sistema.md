@@ -38,7 +38,7 @@ entonces el diagnóstico sugerido es **Neumonía**.
 
 ---
 
-### **Regla 2** Influenza
+### **Regla 2** - Influenza
 
 Si **tiene fiebre alta** (1),  
 **tiene dolor muscular** (6)  
@@ -48,7 +48,7 @@ entonces el diagnóstico sugerido es **Influenza**.
 
 ---
 
-### **Regla 3** Exacerbación asmática
+### **Regla 3** - Exacerbación asmática
 
 Si **tiene antecedente de asma** (11),  
 **tiene sibilancias** (8)  
@@ -58,7 +58,7 @@ entonces el diagnóstico sugerido es **Exacerbación asmática**.
 
 ---
 
-### **Regla 4** Exacerbación de EPOC
+### **Regla 4** - Exacerbación de EPOC
 
 Si **tiene antecedente de EPOC** (12),  
 **tiene disnea** (5)  
@@ -68,7 +68,7 @@ entonces el diagnóstico sugerido es **Exacerbación de EPOC**.
 
 ---
 
-### **Regla 5** Bronquitis aguda
+### **Regla 5** - Bronquitis aguda
 
 Si **tiene tos productiva** (2),  
 **la tos lleva más de 5 días** (13),  
@@ -79,7 +79,7 @@ entonces el diagnóstico sugerido es **Bronquitis aguda**.
 
 ---
 
-### **Regla 6** Sinusitis aguda
+### **Regla 6** - Sinusitis aguda
 
 Si **tiene dolor facial** (7),  
 **tiene congestión nasal** (4)  
@@ -89,7 +89,7 @@ entonces el diagnóstico sugerido es **Sinusitis aguda**.
 
 ---
 
-### **Regla 7** Faringitis bacteriana
+### **Regla 7** - Faringitis bacteriana
 
 Si **tiene fiebre alta** (1),  
 **tiene dolor de garganta** (3),  
@@ -100,7 +100,7 @@ entonces el diagnóstico sugerido es **Faringitis bacteriana**.
 
 ---
 
-### **Regla 8** Resfriado común
+### **Regla 8** - Resfriado común
 
 Si **tiene congestión nasal** (4),  
 **tiene dolor de garganta** (3),  
