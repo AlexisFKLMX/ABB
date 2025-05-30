@@ -1,4 +1,6 @@
-from emotion_classifier import test_webcam
+import torch
+from emotion_classifier import test_webcam, AffectNetCNN
 
-# Ejecutar la cámara con tu modelo entrenado
+# Cargar y probar el modelo
+print("Iniciando cámara...")
 test_webcam('best_affectnet_model.pth')
