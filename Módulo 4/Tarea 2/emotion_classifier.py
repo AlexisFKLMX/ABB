@@ -397,7 +397,7 @@ def test_webcam(model_path='best_affectnet_model.pth'):
 # Función principal
 def main():
     # Rutas al dataset
-    data_root = 'C:\Users\juana\OneDrive\Escritorio\IA\ABB\Módulo 4\affectnet-yolo' 
+    data_root = 'C:\\Users\\luuis\\OneDrive\\Desktop\\IA\\ABB\\Módulo 4\\affectnet-yolo' 
     
     # Obtener transformaciones
     train_transform, val_transform = get_transforms()
@@ -444,8 +444,8 @@ def main():
     plot_training_history(train_losses, val_losses, train_accs, val_accs)
     
     # Probar con webcam
-    print("\nIniciando prueba con webcam...")
-    test_webcam()
+    #print("\nIniciando prueba con webcam...")
+    #test_webcam()
 
 # Función para visualizar resultados de entrenamiento
 def plot_training_history(train_losses, val_losses, train_accs, val_accs):
